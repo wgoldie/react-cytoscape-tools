@@ -1,0 +1,14 @@
+{
+  "name": "react-cytoscape-provider",
+  "version": "0.0.1",
+  "description": "A Cytoscape.js provider component for React",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "prop-types": "^15.6.2",
+    "react": "^16.6.0"
+  },
+  "peerDependencies": {
+    "cytoscape": "^3.2.19"
+  }
+}
