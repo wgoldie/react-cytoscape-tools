@@ -1,4 +1,4 @@
-# react-cytoscape-provider
+# react-cytoscape-tools
 
 This package attemps to provide a set of modules for integrating Cytoscape.JS into React applications.
 Most of the existing Cytoscape/React integrations are outdated and have narrow applicability.
@@ -6,9 +6,10 @@ This package is designed to make integration with a diverse range of React appli
 
 ## Modules 
 
-Rather than providing many props with complex behavior. 
-The modules in this package allow you to integrate CytoscapeJS into a React app with varying levels of abstraction.
-The simplest, and most abstract components are described first.
+Rather than providing a single element with many props and complex behavior, 
+the modules in this package allow you to integrate CytoscapeJS into a React app with varying levels of abstraction.
+
+The simplest and most abstract components are described first.
 At each level of abstraction,
 the element's source code provides an example of how you can implement similar functionality using lower level primitives from
 `react-cytoscape-provider`.
@@ -56,7 +57,7 @@ created using the `<CytoscapeContext.Provider>` element.
 
 ### `<CytoscapeGate>`
 A gating component that will conditionally render children
-once the 'cy' element of the parent Cytoscape context has been set.
+once the `cy` element of the parent Cytoscape context has been set.
 Note that nested CytoscapeProviders will required correspondingly nested CytoscapeGates,
 as the youngest parent CytoscapeProvider will provide context for any given consumer.
 
@@ -64,7 +65,7 @@ as the youngest parent CytoscapeProvider will provide context for any given cons
 - `children`: Required, React child element(s).
   They will be rendered when the gate is 'unlocked'(i.e., when 'cy' is initialized).
 - `gateComponent`: Optional, the component to render when the gate is 'locked'
-  (i.e., when 'cy' is not yet initialized);
+  (i.e., when `cy` is not yet initialized). By default, an empty div is rendered.
 
 ### `<CytoscapeView>`
 An element that attaches and renders a Cytoscape view.
@@ -100,8 +101,24 @@ It should only be rendered if `cy` is initialized for the parent `CytoscapeConte
 - `cyJSON`: Same definition as in `<Cytoscape>`.
 - `children`: Optional, React child element(s). 
 
+### `PropTypes`
+Prop type definitions for Cytoscape and this module.
+
+### Types:
+- cyId: Valid ID values for Cytoscape elements
+- cyJSON: Valid initialization/update object for Cytoscape
+ (using `cytoscape(...)` or `cy.json(...)`).
+ Note that this doesn't enforce serializability or proper JSON,
+ because Cytoscape allows non-serializable objects (functions, promises) in several keys.^ww
+- cyNode: Valid init/update object for a node
+- cyEdge: Valid init/update object for an edge
+- cyElement: Valid init/update object for a Cytoscape element
+- cyLayout: Valid init/update object for layout
+- cyStyle: Valid init/update object for style
+
 ## Roadmap:
 
+- [ ] Babel transpile
 - [ ] Example project
 - [ ] React Native support
 - [ ] Publish to NPM
