@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import CytoscapeContext from './context';
+import CytoscapeContext from './CytoscapeContext';
 
 class CytoscapeProvider extends React.Component {
   constructor(props) {

@@ -1,10 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import CytoscapeContext from '../context';
+import CytoscapeContext from '../CytoscapeContext';
 import Presentation from './presentation';
 import attachCytoscape from '../utils';
 
-class CytoscapeViewContainer extends React.Component {
+class CytoscapeElementContainer extends React.Component {
   constructor(props) {
     super(props);
     this.cyRef = React.createRef();
@@ -24,14 +24,14 @@ class CytoscapeViewContainer extends React.Component {
       cyRef,
       style,
       className,
-      children
+      children,
     });
   }
 }
 
-CytoscapeViewContainer.contextType = CytoscapeContext;
+CytoscapeElementContainer.contextType = CytoscapeContext;
 
-CytoscapeViewContainer.defaultProps = {
+CytoscapeElementContainer.defaultProps = {
   cytoscape: require('cytoscape'),
   cyInitJSON: {},
   style: {},
@@ -39,7 +39,7 @@ CytoscapeViewContainer.defaultProps = {
   children: React.createElement('div'),
 };
 
-CytoscapeViewContainer.propTypes = {
+CytoscapeElementContainer.propTypes = {
   cytoscape: PropTypes.object,
   cyInitJSON: PropTypes.object,
   style: PropTypes.object,
@@ -48,4 +48,4 @@ CytoscapeViewContainer.propTypes = {
 };
 
 
-export default CytoscapeViewContainer;
+export default CytoscapeElementContainer;

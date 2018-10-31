@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const CytoscapeViewPresentation = ({
+const CytoscapeElementPresentation = ({
   cyRef,
   style,
   className,
@@ -12,11 +12,11 @@ const CytoscapeViewPresentation = ({
   </div>
 );
 
-CytoscapeViewPresentation.propTypes = {
+CytoscapeElementPresentation.propTypes = {
   cyRef: PropTypes.shape({ current: PropTypes.object }).isRequired,
   style: PropTypes.object.isRequired,
   className: PropTypes.string.isRequired,
   children: PropTypes.node,
 };
 
-export default CytoscapeViewPresentation;
+export default CytoscapeElementPresentation;
