@@ -1,8 +1,18 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import CytoscapePropTypes from '../CytoscapePropTypes';
+import InternalPropTypes from '../InternalPropTypes';
 import CytoscapeContext from '../CytoscapeContext';
 import Presentation from './presentation';
-import attachCytoscape from '../utils';
+
+/*
+ * Attaches the given cytoscape library
+ * instance to the given element
+ */
+const attachCytoscape = (cytoscape, element, initJSON) => cytoscape({
+  container: element,
+  ...initJSON,
+});
 
 class CytoscapeElementContainer extends React.Component {
   constructor(props) {
@@ -32,7 +42,7 @@ class CytoscapeElementContainer extends React.Component {
 CytoscapeElementContainer.contextType = CytoscapeContext;
 
 CytoscapeElementContainer.defaultProps = {
-  cytoscape: require('cytoscape'),
+  cytoscape: require('cytoscape'), // eslint-disable-line global-require
   cyInitJSON: {},
   style: {},
   className: '',
@@ -40,9 +50,9 @@ CytoscapeElementContainer.defaultProps = {
 };
 
 CytoscapeElementContainer.propTypes = {
-  cytoscape: PropTypes.object,
-  cyInitJSON: PropTypes.object,
-  style: PropTypes.object,
+  cytoscape: PropTypes.func,
+  cyInitJSON: CytoscapePropTypes.cyJSON,
+  style: InternalPropTypes.style,
   className: PropTypes.string,
   children: PropTypes.node,
 };

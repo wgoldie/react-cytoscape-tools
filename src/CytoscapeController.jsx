@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import CytoscapePropTypes from './CytoscapePropTypes';
 import CytoscapeContext from './CytoscapeContext';
 
 class CytoscapeController extends React.Component {
@@ -29,7 +30,7 @@ CytoscapeController.defaultProps = {
 };
 
 CytoscapeController.propTypes = {
-  cyJSON: PropTypes.object,
+  cyJSON: CytoscapePropTypes.cyJSON,
   children: PropTypes.node,
 };
 

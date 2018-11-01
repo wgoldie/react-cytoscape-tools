@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import InternalPropTypes from '../InternalPropTypes';
 
 const CytoscapeElementPresentation = ({
   cyRef,
@@ -14,9 +15,9 @@ const CytoscapeElementPresentation = ({
 
 CytoscapeElementPresentation.propTypes = {
   cyRef: PropTypes.shape({ current: PropTypes.object }).isRequired,
-  style: PropTypes.object.isRequired,
+  style: InternalPropTypes.style.isRequired,
   className: PropTypes.string.isRequired,
-  children: PropTypes.node,
+  children: PropTypes.node.isRequired,
 };
 
 export default CytoscapeElementPresentation;

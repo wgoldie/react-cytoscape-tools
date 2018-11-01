@@ -1,4 +1,7 @@
 import React, { Fragment } from 'react';
+import PropTypes from 'prop-types';
+import InternalPropTypes from './InternalPropTypes';
+import CytoscapePropTypes from './CytoscapePropTypes';
 import CytoscapeElement from './CytoscapeElement';
 import CytoscapeContext from './CytoscapeContext';
 import CytoscapeController from './CytoscapeController';
@@ -41,7 +44,7 @@ class CytoscapeView extends React.Component {
 }
 
 CytoscapeView.defaultProps = {
-  cytoscape: require('cytoscape'),
+  cytoscape: require('cytoscape'), // eslint-disable-line global-require
   cyInitJSON: {},
   cyJSON: {},
   style: {},
@@ -50,10 +53,10 @@ CytoscapeView.defaultProps = {
 };
 
 CytoscapeView.propTypes = {
-  cytoscape: PropTypes.object,
-  cyInitJSON: PropTypes.object,
-  cyJSON: PropTypes.object,
-  style: PropTypes.object,
+  cytoscape: PropTypes.func,
+  cyInitJSON: CytoscapePropTypes.cyJSON,
+  cyJSON: CytoscapePropTypes.cyJSON,
+  style: InternalPropTypes.style,
   className: PropTypes.string,
   children: PropTypes.node,
 };
