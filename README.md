@@ -1,6 +1,6 @@
 # react-cytoscape-tools
 
-This package attemps to provide a set of modules for integrating Cytoscape.JS into React applications.
+This package attempts to provide a set of modules for integrating the [Cytoscape.JS](http://js.cytoscape.org/) graph library into React applications.
 Most of the existing Cytoscape/React integrations are not compatible with current versions of each library and their current best practices.
 In addition, some have narrow applicability.
 This package is designed to make integration with a diverse range of React applications possible by not assuming too much about your code.
@@ -14,6 +14,9 @@ or
 ```bash
 npm i --save react-cytoscape-tools
 ```
+
+## Example
+An example project is available at [`react-cytoscape-tools-demo`](https://github.com/wgoldie/react-cytoscape-tools-demo).
 
 ## Modules 
 
@@ -126,10 +129,3 @@ Prop type definitions for Cytoscape and this module.
 - cyElement: Valid init/update object for a Cytoscape element
 - cyLayout: Valid init/update object for layout
 - cyStyle: Valid init/update object for style
-
-## Roadmap:
-
-- [ ] Babel transpile
-- [ ] Example project
-- [ ] React Native support
-- [ ] Publish to NPM
