@@ -360,7 +360,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _InternalPropTypes__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./InternalPropTypes */ "./InternalPropTypes.js");
 /* harmony import */ var _CytoscapeView__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./CytoscapeView */ "./CytoscapeView.jsx");
 /* harmony import */ var _CytoscapeProvider__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./CytoscapeProvider */ "./CytoscapeProvider.jsx");
-var _jsxFileName = "/home/wgoldie/Documents/CytoscapeManager/src/Cytoscape.jsx";
+var _jsxFileName = "/home/wgoldie/Documents/react-cytoscape-tools/src/Cytoscape.jsx";
 
 
 
@@ -445,11 +445,11 @@ var CytoscapeContext = react__WEBPACK_IMPORTED_MODULE_0___default.a.createContex
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _home_wgoldie_Documents_CytoscapeManager_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/@babel/runtime/helpers/esm/classCallCheck */ "../node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
-/* harmony import */ var _home_wgoldie_Documents_CytoscapeManager_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/@babel/runtime/helpers/esm/createClass */ "../node_modules/@babel/runtime/helpers/esm/createClass.js");
-/* harmony import */ var _home_wgoldie_Documents_CytoscapeManager_node_modules_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn */ "../node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn.js");
-/* harmony import */ var _home_wgoldie_Documents_CytoscapeManager_node_modules_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../node_modules/@babel/runtime/helpers/esm/getPrototypeOf */ "../node_modules/@babel/runtime/helpers/esm/getPrototypeOf.js");
-/* harmony import */ var _home_wgoldie_Documents_CytoscapeManager_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../node_modules/@babel/runtime/helpers/esm/inherits */ "../node_modules/@babel/runtime/helpers/esm/inherits.js");
+/* harmony import */ var _home_wgoldie_Documents_react_cytoscape_tools_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/@babel/runtime/helpers/esm/classCallCheck */ "../node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
+/* harmony import */ var _home_wgoldie_Documents_react_cytoscape_tools_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/@babel/runtime/helpers/esm/createClass */ "../node_modules/@babel/runtime/helpers/esm/createClass.js");
+/* harmony import */ var _home_wgoldie_Documents_react_cytoscape_tools_node_modules_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn */ "../node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn.js");
+/* harmony import */ var _home_wgoldie_Documents_react_cytoscape_tools_node_modules_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../node_modules/@babel/runtime/helpers/esm/getPrototypeOf */ "../node_modules/@babel/runtime/helpers/esm/getPrototypeOf.js");
+/* harmony import */ var _home_wgoldie_Documents_react_cytoscape_tools_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../node_modules/@babel/runtime/helpers/esm/inherits */ "../node_modules/@babel/runtime/helpers/esm/inherits.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! prop-types */ "prop-types");
@@ -469,20 +469,20 @@ __webpack_require__.r(__webpack_exports__);
 var CytoscapeController =
 /*#__PURE__*/
 function (_React$Component) {
-  Object(_home_wgoldie_Documents_CytoscapeManager_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(CytoscapeController, _React$Component);
+  Object(_home_wgoldie_Documents_react_cytoscape_tools_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(CytoscapeController, _React$Component);
 
   function CytoscapeController() {
     var _getPrototypeOf2;
 
     var _this;
 
-    Object(_home_wgoldie_Documents_CytoscapeManager_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, CytoscapeController);
+    Object(_home_wgoldie_Documents_react_cytoscape_tools_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, CytoscapeController);
 
     for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
       args[_key] = arguments[_key];
     }
 
-    _this = Object(_home_wgoldie_Documents_CytoscapeManager_node_modules_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, (_getPrototypeOf2 = Object(_home_wgoldie_Documents_CytoscapeManager_node_modules_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(CytoscapeController)).call.apply(_getPrototypeOf2, [this].concat(args)));
+    _this = Object(_home_wgoldie_Documents_react_cytoscape_tools_node_modules_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, (_getPrototypeOf2 = Object(_home_wgoldie_Documents_react_cytoscape_tools_node_modules_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(CytoscapeController)).call.apply(_getPrototypeOf2, [this].concat(args)));
 
     _this.updateCytoscape = function (oldProps) {
       var cyJSON = _this.props.cyJSON;
@@ -495,7 +495,7 @@ function (_React$Component) {
     return _this;
   }
 
-  Object(_home_wgoldie_Documents_CytoscapeManager_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(CytoscapeController, [{
+  Object(_home_wgoldie_Documents_react_cytoscape_tools_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(CytoscapeController, [{
     key: "componentDidUpdate",
     value: function componentDidUpdate(oldProps) {
       this.updateCytoscape(oldProps);
@@ -537,12 +537,12 @@ CytoscapeController.contextType = _CytoscapeContext__WEBPACK_IMPORTED_MODULE_8__
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _home_wgoldie_Documents_CytoscapeManager_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/@babel/runtime/helpers/esm/classCallCheck */ "../node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
-/* harmony import */ var _home_wgoldie_Documents_CytoscapeManager_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/@babel/runtime/helpers/esm/createClass */ "../node_modules/@babel/runtime/helpers/esm/createClass.js");
-/* harmony import */ var _home_wgoldie_Documents_CytoscapeManager_node_modules_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn */ "../node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn.js");
-/* harmony import */ var _home_wgoldie_Documents_CytoscapeManager_node_modules_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../node_modules/@babel/runtime/helpers/esm/getPrototypeOf */ "../node_modules/@babel/runtime/helpers/esm/getPrototypeOf.js");
-/* harmony import */ var _home_wgoldie_Documents_CytoscapeManager_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../node_modules/@babel/runtime/helpers/esm/inherits */ "../node_modules/@babel/runtime/helpers/esm/inherits.js");
-/* harmony import */ var _home_wgoldie_Documents_CytoscapeManager_node_modules_babel_runtime_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../node_modules/@babel/runtime/helpers/esm/objectSpread */ "../node_modules/@babel/runtime/helpers/esm/objectSpread.js");
+/* harmony import */ var _home_wgoldie_Documents_react_cytoscape_tools_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/@babel/runtime/helpers/esm/classCallCheck */ "../node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
+/* harmony import */ var _home_wgoldie_Documents_react_cytoscape_tools_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/@babel/runtime/helpers/esm/createClass */ "../node_modules/@babel/runtime/helpers/esm/createClass.js");
+/* harmony import */ var _home_wgoldie_Documents_react_cytoscape_tools_node_modules_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn */ "../node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn.js");
+/* harmony import */ var _home_wgoldie_Documents_react_cytoscape_tools_node_modules_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../node_modules/@babel/runtime/helpers/esm/getPrototypeOf */ "../node_modules/@babel/runtime/helpers/esm/getPrototypeOf.js");
+/* harmony import */ var _home_wgoldie_Documents_react_cytoscape_tools_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../node_modules/@babel/runtime/helpers/esm/inherits */ "../node_modules/@babel/runtime/helpers/esm/inherits.js");
+/* harmony import */ var _home_wgoldie_Documents_react_cytoscape_tools_node_modules_babel_runtime_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../node_modules/@babel/runtime/helpers/esm/objectSpread */ "../node_modules/@babel/runtime/helpers/esm/objectSpread.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_6__);
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! prop-types */ "prop-types");
@@ -569,7 +569,7 @@ __webpack_require__.r(__webpack_exports__);
  */
 
 var attachCytoscape = function attachCytoscape(cytoscape, element, initJSON) {
-  return cytoscape(Object(_home_wgoldie_Documents_CytoscapeManager_node_modules_babel_runtime_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_5__["default"])({
+  return cytoscape(Object(_home_wgoldie_Documents_react_cytoscape_tools_node_modules_babel_runtime_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_5__["default"])({
     container: element
   }, initJSON));
 };
@@ -577,19 +577,19 @@ var attachCytoscape = function attachCytoscape(cytoscape, element, initJSON) {
 var CytoscapeElementContainer =
 /*#__PURE__*/
 function (_React$Component) {
-  Object(_home_wgoldie_Documents_CytoscapeManager_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(CytoscapeElementContainer, _React$Component);
+  Object(_home_wgoldie_Documents_react_cytoscape_tools_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(CytoscapeElementContainer, _React$Component);
 
   function CytoscapeElementContainer(props) {
     var _this;
 
-    Object(_home_wgoldie_Documents_CytoscapeManager_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, CytoscapeElementContainer);
+    Object(_home_wgoldie_Documents_react_cytoscape_tools_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, CytoscapeElementContainer);
 
-    _this = Object(_home_wgoldie_Documents_CytoscapeManager_node_modules_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(_home_wgoldie_Documents_CytoscapeManager_node_modules_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(CytoscapeElementContainer).call(this, props));
+    _this = Object(_home_wgoldie_Documents_react_cytoscape_tools_node_modules_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(_home_wgoldie_Documents_react_cytoscape_tools_node_modules_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(CytoscapeElementContainer).call(this, props));
     _this.cyRef = react__WEBPACK_IMPORTED_MODULE_6___default.a.createRef();
     return _this;
   }
 
-  Object(_home_wgoldie_Documents_CytoscapeManager_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(CytoscapeElementContainer, [{
+  Object(_home_wgoldie_Documents_react_cytoscape_tools_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(CytoscapeElementContainer, [{
     key: "componentDidMount",
     value: function componentDidMount() {
       var cyNode = this.cyRef.current;
@@ -668,7 +668,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! prop-types */ "prop-types");
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _InternalPropTypes__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../InternalPropTypes */ "./InternalPropTypes.js");
-var _jsxFileName = "/home/wgoldie/Documents/CytoscapeManager/src/CytoscapeElement/presentation.jsx";
+var _jsxFileName = "/home/wgoldie/Documents/react-cytoscape-tools/src/CytoscapeElement/presentation.jsx";
 
 
 
@@ -712,11 +712,11 @@ CytoscapeElementPresentation.propTypes = {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _home_wgoldie_Documents_CytoscapeManager_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/@babel/runtime/helpers/esm/classCallCheck */ "../node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
-/* harmony import */ var _home_wgoldie_Documents_CytoscapeManager_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/@babel/runtime/helpers/esm/createClass */ "../node_modules/@babel/runtime/helpers/esm/createClass.js");
-/* harmony import */ var _home_wgoldie_Documents_CytoscapeManager_node_modules_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn */ "../node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn.js");
-/* harmony import */ var _home_wgoldie_Documents_CytoscapeManager_node_modules_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../node_modules/@babel/runtime/helpers/esm/getPrototypeOf */ "../node_modules/@babel/runtime/helpers/esm/getPrototypeOf.js");
-/* harmony import */ var _home_wgoldie_Documents_CytoscapeManager_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../node_modules/@babel/runtime/helpers/esm/inherits */ "../node_modules/@babel/runtime/helpers/esm/inherits.js");
+/* harmony import */ var _home_wgoldie_Documents_react_cytoscape_tools_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/@babel/runtime/helpers/esm/classCallCheck */ "../node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
+/* harmony import */ var _home_wgoldie_Documents_react_cytoscape_tools_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/@babel/runtime/helpers/esm/createClass */ "../node_modules/@babel/runtime/helpers/esm/createClass.js");
+/* harmony import */ var _home_wgoldie_Documents_react_cytoscape_tools_node_modules_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn */ "../node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn.js");
+/* harmony import */ var _home_wgoldie_Documents_react_cytoscape_tools_node_modules_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../node_modules/@babel/runtime/helpers/esm/getPrototypeOf */ "../node_modules/@babel/runtime/helpers/esm/getPrototypeOf.js");
+/* harmony import */ var _home_wgoldie_Documents_react_cytoscape_tools_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../node_modules/@babel/runtime/helpers/esm/inherits */ "../node_modules/@babel/runtime/helpers/esm/inherits.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! prop-types */ "prop-types");
@@ -734,15 +734,15 @@ __webpack_require__.r(__webpack_exports__);
 var CytoscapeGate =
 /*#__PURE__*/
 function (_React$Component) {
-  Object(_home_wgoldie_Documents_CytoscapeManager_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(CytoscapeGate, _React$Component);
+  Object(_home_wgoldie_Documents_react_cytoscape_tools_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(CytoscapeGate, _React$Component);
 
   function CytoscapeGate() {
-    Object(_home_wgoldie_Documents_CytoscapeManager_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, CytoscapeGate);
+    Object(_home_wgoldie_Documents_react_cytoscape_tools_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, CytoscapeGate);
 
-    return Object(_home_wgoldie_Documents_CytoscapeManager_node_modules_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(_home_wgoldie_Documents_CytoscapeManager_node_modules_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(CytoscapeGate).apply(this, arguments));
+    return Object(_home_wgoldie_Documents_react_cytoscape_tools_node_modules_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(_home_wgoldie_Documents_react_cytoscape_tools_node_modules_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(CytoscapeGate).apply(this, arguments));
   }
 
-  Object(_home_wgoldie_Documents_CytoscapeManager_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(CytoscapeGate, [{
+  Object(_home_wgoldie_Documents_react_cytoscape_tools_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(CytoscapeGate, [{
     key: "render",
     value: function render() {
       return this.context.cy ? this.props.children : this.props.gateComponent;
@@ -773,7 +773,7 @@ CytoscapeGate.contextType = _CytoscapeContext__WEBPACK_IMPORTED_MODULE_7__["defa
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _home_wgoldie_Documents_CytoscapeManager_node_modules_babel_runtime_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/@babel/runtime/helpers/esm/objectSpread */ "../node_modules/@babel/runtime/helpers/esm/objectSpread.js");
+/* harmony import */ var _home_wgoldie_Documents_react_cytoscape_tools_node_modules_babel_runtime_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/@babel/runtime/helpers/esm/objectSpread */ "../node_modules/@babel/runtime/helpers/esm/objectSpread.js");
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! prop-types */ "prop-types");
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
 
@@ -791,7 +791,7 @@ var anyElementPropTypes = {
   classes: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string
 };
 var cyId = prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.oneOfType([prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.number, prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string]);
-var cyEdge = prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.shape(Object(_home_wgoldie_Documents_CytoscapeManager_node_modules_babel_runtime_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_0__["default"])({}, anyElementPropTypes, {
+var cyEdge = prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.shape(Object(_home_wgoldie_Documents_react_cytoscape_tools_node_modules_babel_runtime_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_0__["default"])({}, anyElementPropTypes, {
   group: function group(prop) {
     return prop === 'edges';
   },
@@ -802,7 +802,7 @@ var cyEdge = prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.shape(Object(_hom
     target: cyId.isRequired
   })
 }));
-var cyNode = prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.shape(Object(_home_wgoldie_Documents_CytoscapeManager_node_modules_babel_runtime_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_0__["default"])({}, anyElementPropTypes, {
+var cyNode = prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.shape(Object(_home_wgoldie_Documents_react_cytoscape_tools_node_modules_babel_runtime_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_0__["default"])({}, anyElementPropTypes, {
   group: function group(prop) {
     return prop === 'nodes';
   },
@@ -829,7 +829,7 @@ var cyStyle = prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.oneOfType([prop_
   style: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.object.isRequired
 }), prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string, prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func]);
 var cyJSON = prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.shape({
-  container: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.instanceof(Element),
+  container: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.instanceOf(Element),
   elements: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.arrayOf(cyElement),
   layout: cyElement,
   style: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.arrayOf(cyStyle),
@@ -877,11 +877,11 @@ var cyJSON = prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.shape({
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _home_wgoldie_Documents_CytoscapeManager_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/@babel/runtime/helpers/esm/classCallCheck */ "../node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
-/* harmony import */ var _home_wgoldie_Documents_CytoscapeManager_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/@babel/runtime/helpers/esm/createClass */ "../node_modules/@babel/runtime/helpers/esm/createClass.js");
-/* harmony import */ var _home_wgoldie_Documents_CytoscapeManager_node_modules_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn */ "../node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn.js");
-/* harmony import */ var _home_wgoldie_Documents_CytoscapeManager_node_modules_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../node_modules/@babel/runtime/helpers/esm/getPrototypeOf */ "../node_modules/@babel/runtime/helpers/esm/getPrototypeOf.js");
-/* harmony import */ var _home_wgoldie_Documents_CytoscapeManager_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../node_modules/@babel/runtime/helpers/esm/inherits */ "../node_modules/@babel/runtime/helpers/esm/inherits.js");
+/* harmony import */ var _home_wgoldie_Documents_react_cytoscape_tools_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/@babel/runtime/helpers/esm/classCallCheck */ "../node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
+/* harmony import */ var _home_wgoldie_Documents_react_cytoscape_tools_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/@babel/runtime/helpers/esm/createClass */ "../node_modules/@babel/runtime/helpers/esm/createClass.js");
+/* harmony import */ var _home_wgoldie_Documents_react_cytoscape_tools_node_modules_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn */ "../node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn.js");
+/* harmony import */ var _home_wgoldie_Documents_react_cytoscape_tools_node_modules_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../node_modules/@babel/runtime/helpers/esm/getPrototypeOf */ "../node_modules/@babel/runtime/helpers/esm/getPrototypeOf.js");
+/* harmony import */ var _home_wgoldie_Documents_react_cytoscape_tools_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../node_modules/@babel/runtime/helpers/esm/inherits */ "../node_modules/@babel/runtime/helpers/esm/inherits.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! prop-types */ "prop-types");
@@ -892,7 +892,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/home/wgoldie/Documents/CytoscapeManager/src/CytoscapeProvider.jsx";
+var _jsxFileName = "/home/wgoldie/Documents/react-cytoscape-tools/src/CytoscapeProvider.jsx";
 
 
 
@@ -900,14 +900,14 @@ var _jsxFileName = "/home/wgoldie/Documents/CytoscapeManager/src/CytoscapeProvid
 var CytoscapeProvider =
 /*#__PURE__*/
 function (_React$Component) {
-  Object(_home_wgoldie_Documents_CytoscapeManager_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(CytoscapeProvider, _React$Component);
+  Object(_home_wgoldie_Documents_react_cytoscape_tools_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(CytoscapeProvider, _React$Component);
 
   function CytoscapeProvider(props) {
     var _this;
 
-    Object(_home_wgoldie_Documents_CytoscapeManager_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, CytoscapeProvider);
+    Object(_home_wgoldie_Documents_react_cytoscape_tools_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, CytoscapeProvider);
 
-    _this = Object(_home_wgoldie_Documents_CytoscapeManager_node_modules_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(_home_wgoldie_Documents_CytoscapeManager_node_modules_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(CytoscapeProvider).call(this, props));
+    _this = Object(_home_wgoldie_Documents_react_cytoscape_tools_node_modules_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(_home_wgoldie_Documents_react_cytoscape_tools_node_modules_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(CytoscapeProvider).call(this, props));
 
     _this.handleSetCy = function (cy) {
       return _this.setState({
@@ -921,7 +921,7 @@ function (_React$Component) {
     return _this;
   }
 
-  Object(_home_wgoldie_Documents_CytoscapeManager_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(CytoscapeProvider, [{
+  Object(_home_wgoldie_Documents_react_cytoscape_tools_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(CytoscapeProvider, [{
     key: "render",
     value: function render() {
       var children = this.props.children;
@@ -961,11 +961,11 @@ CytoscapeProvider.propTypes = {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _home_wgoldie_Documents_CytoscapeManager_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/@babel/runtime/helpers/esm/classCallCheck */ "../node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
-/* harmony import */ var _home_wgoldie_Documents_CytoscapeManager_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/@babel/runtime/helpers/esm/createClass */ "../node_modules/@babel/runtime/helpers/esm/createClass.js");
-/* harmony import */ var _home_wgoldie_Documents_CytoscapeManager_node_modules_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn */ "../node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn.js");
-/* harmony import */ var _home_wgoldie_Documents_CytoscapeManager_node_modules_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../node_modules/@babel/runtime/helpers/esm/getPrototypeOf */ "../node_modules/@babel/runtime/helpers/esm/getPrototypeOf.js");
-/* harmony import */ var _home_wgoldie_Documents_CytoscapeManager_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../node_modules/@babel/runtime/helpers/esm/inherits */ "../node_modules/@babel/runtime/helpers/esm/inherits.js");
+/* harmony import */ var _home_wgoldie_Documents_react_cytoscape_tools_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/@babel/runtime/helpers/esm/classCallCheck */ "../node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
+/* harmony import */ var _home_wgoldie_Documents_react_cytoscape_tools_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/@babel/runtime/helpers/esm/createClass */ "../node_modules/@babel/runtime/helpers/esm/createClass.js");
+/* harmony import */ var _home_wgoldie_Documents_react_cytoscape_tools_node_modules_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn */ "../node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn.js");
+/* harmony import */ var _home_wgoldie_Documents_react_cytoscape_tools_node_modules_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../node_modules/@babel/runtime/helpers/esm/getPrototypeOf */ "../node_modules/@babel/runtime/helpers/esm/getPrototypeOf.js");
+/* harmony import */ var _home_wgoldie_Documents_react_cytoscape_tools_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../node_modules/@babel/runtime/helpers/esm/inherits */ "../node_modules/@babel/runtime/helpers/esm/inherits.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! prop-types */ "prop-types");
@@ -981,7 +981,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/home/wgoldie/Documents/CytoscapeManager/src/CytoscapeView.jsx";
+var _jsxFileName = "/home/wgoldie/Documents/react-cytoscape-tools/src/CytoscapeView.jsx";
 
 
 
@@ -994,15 +994,15 @@ var _jsxFileName = "/home/wgoldie/Documents/CytoscapeManager/src/CytoscapeView.j
 var CytoscapeView =
 /*#__PURE__*/
 function (_React$Component) {
-  Object(_home_wgoldie_Documents_CytoscapeManager_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(CytoscapeView, _React$Component);
+  Object(_home_wgoldie_Documents_react_cytoscape_tools_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(CytoscapeView, _React$Component);
 
   function CytoscapeView() {
-    Object(_home_wgoldie_Documents_CytoscapeManager_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, CytoscapeView);
+    Object(_home_wgoldie_Documents_react_cytoscape_tools_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, CytoscapeView);
 
-    return Object(_home_wgoldie_Documents_CytoscapeManager_node_modules_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(_home_wgoldie_Documents_CytoscapeManager_node_modules_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(CytoscapeView).apply(this, arguments));
+    return Object(_home_wgoldie_Documents_react_cytoscape_tools_node_modules_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(_home_wgoldie_Documents_react_cytoscape_tools_node_modules_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(CytoscapeView).apply(this, arguments));
   }
 
-  Object(_home_wgoldie_Documents_CytoscapeManager_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(CytoscapeView, [{
+  Object(_home_wgoldie_Documents_react_cytoscape_tools_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(CytoscapeView, [{
     key: "componentDidUpdate",
     value: function componentDidUpdate(oldProps) {
       var cyJSON = this.props.cyJSON;

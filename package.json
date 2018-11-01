@@ -2,11 +2,12 @@
   "name": "react-cytoscape-tools",
   "version": "0.0.1",
   "scripts": {
-    "start": "BABEL_ENV=development webpack --config webpack.config.dev.js",
-    "build": "BABEL_ENV=production webpack --config webpack.config.prod.js"
+    "start": "BABEL_ENV=development webpack --config webpack.config.dev.js --watch",
+    "build": "BABEL_ENV=production webpack --config webpack.config.prod.js",
+    "build-prod": "BABEL_ENV=production webpack --config webpack.config.prod.js"
   },
   "description": "Cytoscape.js modules for React",
-  "main": "index.js",
+  "main": "dist/react-cytoscape-tools.js",
   "license": "MIT",
   "dependencies": {
     "cytoscape": "^3.2.19",

@@ -67,7 +67,7 @@ const cyStyle = PropTypes.oneOfType([
 ]);
 
 const cyJSON = PropTypes.shape({
-  container: PropTypes.instanceof(Element),
+  container: PropTypes.instanceOf(Element),
   elements: PropTypes.arrayOf(cyElement),
   layout: cyElement,
   style: PropTypes.arrayOf(cyStyle),
