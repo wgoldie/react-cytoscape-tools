@@ -1366,6 +1366,7 @@
 	exports.CytoscapeElement = CytoscapeElementContainer;
 	exports.CytoscapeController = CytoscapeController;
 	exports.CytoscapePropTypes = CytoscapePropTypes;
+	exports.CytoscapeContext = CytoscapeContext;
 
 	Object.defineProperty(exports, '__esModule', { value: true });
 

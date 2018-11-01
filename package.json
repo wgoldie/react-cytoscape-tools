@@ -1,6 +1,6 @@
 {
   "name": "react-cytoscape-tools",
-  "version": "0.0.2",
+  "version": "0.0.1",
   "scripts": {
     "build": "BABEL_ENV=development npx rollup -c -o dist/index.js",
     "build-prod": "BABEL_ENV=production npx rollup -c -o dist/index.min.js"

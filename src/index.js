@@ -7,3 +7,4 @@ export { default as CytoscapeView } from './CytoscapeView';
 export { default as CytoscapeElement } from './CytoscapeElement';
 export { default as CytoscapeController } from './CytoscapeController';
 export { default as CytoscapePropTypes } from './CytoscapePropTypes';
+export { default as CytoscapeContext } from './CytoscapeContext';

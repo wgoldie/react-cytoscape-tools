@@ -109,7 +109,7 @@ Prop type definitions for Cytoscape and this module.
 - cyJSON: Valid initialization/update object for Cytoscape
  (using `cytoscape(...)` or `cy.json(...)`).
  Note that this doesn't enforce serializability or proper JSON,
- because Cytoscape allows non-serializable objects (functions, promises) in several keys.^ww
+ because Cytoscape allows non-serializable objects (functions, promises) in several keys.
 - cyNode: Valid init/update object for a node
 - cyEdge: Valid init/update object for an edge
 - cyElement: Valid init/update object for a Cytoscape element
