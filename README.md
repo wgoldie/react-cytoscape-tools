@@ -5,6 +5,16 @@ Most of the existing Cytoscape/React integrations are not compatible with curren
 In addition, some have narrow applicability.
 This package is designed to make integration with a diverse range of React applications possible by not assuming too much about your code.
 
+```bash
+yarn add react-cytoscape-tools
+```
+
+or
+
+```bash
+npm i --save react-cytoscape-tools
+```
+
 ## Modules 
 
 Rather than providing a single element with many props and complex behavior, 
