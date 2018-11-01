@@ -11,6 +11,9 @@ class CytoscapeView extends React.Component {
   componentDidUpdate(oldProps) {
     const { cyJSON } = this.props;
     if (oldProps.cyJSON !== cyJSON) {
+      // Have to call this twice because of cytoscape bug
+      // https://github.com/cytoscape/cytoscape.js/issues/2210
+      this.context.cy.json(cyJSON);
       this.context.cy.json(cyJSON);
     }
   }
