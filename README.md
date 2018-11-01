@@ -1,7 +1,8 @@
 # react-cytoscape-tools
 
 This package attemps to provide a set of modules for integrating Cytoscape.JS into React applications.
-Most of the existing Cytoscape/React integrations are outdated and have narrow applicability.
+Most of the existing Cytoscape/React integrations are not compatible with current versions of each library and their current best practices.
+In addition, some have narrow applicability.
 This package is designed to make integration with a diverse range of React applications possible by not assuming too much about your code.
 
 ## Modules 
